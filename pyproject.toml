@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beyondicnn"
+description = "Pytorch library for checking convexity of Relu NN"
+authors = [
+    {name="Anne Gagneux", email="anne.gagneux@ens-lyon.fr"},
+    ]
+license = {text = "BSD (3-Clause)"}
+dependencies = [
+    "torch",
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "beyondicnn.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
