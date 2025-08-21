@@ -10,7 +10,7 @@ pip install -e .
 You can check convexity of a ReLU NN using the `check_convexity` function from `beyondicnn.check_convexity`. The `beyondicnn.convex_reg` file provides a convex regularisation that can be softly enforced during training.
 The ReLU NN is expected to have the structure of `beyondicnn.models.FeedForwardNet`.
 
-Experiments conducted in the first [paper](https://arxiv.org/abs/2501.03017) and its follow-up are in the `expes` folder.
+Experiments conducted in the first [paper](https://arxiv.org/abs/2501.03017) and its [follow-up](https://hal.science/hal-05216923v1) are in the `expes` folder.
 
 
 ### Acknowledgements
